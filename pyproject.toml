@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools==70.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "campusops-ledger"
+version = "0.1.0"
+description = "Offline campus operations ledger for student records, assessment attempts, payments, attendance, rooms, audit logs, and reports."
+requires-python = ">=3.10"
+authors = [
+  { name = "Kelvin Murithi", email = "kelvinmurithi3900@gmail.com" }
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
