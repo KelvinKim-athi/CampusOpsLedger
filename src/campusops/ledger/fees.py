@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from copy import deepcopy
 from dataclasses import dataclass, field
@@ -99,9 +99,6 @@ class FeeSchedule:
             raise ValueError("fee schedule id is required")
         if not title:
             raise ValueError("fee schedule title is required")
-        if not self.items:
-            raise ValueError("fee schedule must have at least one item")
-
         item_codes = [item.item_code for item in self.items]
         if len(item_codes) != len(set(item_codes)):
             raise ValueError("fee schedule has duplicate item codes")
@@ -135,3 +132,4 @@ class FeeSchedule:
             items=tuple(FeeItem.from_dict(record) for record in records),
             metadata=metadata or {},
         )
+
