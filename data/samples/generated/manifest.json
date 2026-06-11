@@ -1,0 +1,14 @@
+{
+  "dataset": "campusops-demo",
+  "files": {
+    "access": "access.json",
+    "attendance": "attendance.json",
+    "dashboard": "dashboard.json",
+    "ledger": "ledger.json",
+    "rooms": "rooms.json",
+    "students": "students.json"
+  },
+  "room_count": 3,
+  "staff_count": 2,
+  "student_count": 3
+}

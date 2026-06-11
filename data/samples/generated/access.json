@@ -1,0 +1,55 @@
+{
+  "roles": [
+    {
+      "metadata": {},
+      "name": "Finance Officer",
+      "permissions": [
+        "ledger_read",
+        "ledger_write",
+        "reports_view"
+      ],
+      "role_id": "finance_officer"
+    },
+    {
+      "metadata": {},
+      "name": "Lecturer",
+      "permissions": [
+        "assessments_read",
+        "attendance_write"
+      ],
+      "role_id": "lecturer"
+    },
+    {
+      "metadata": {},
+      "name": "Registrar",
+      "permissions": [
+        "reports_view",
+        "students_read",
+        "students_write"
+      ],
+      "role_id": "registrar"
+    }
+  ],
+  "users": [
+    {
+      "active": true,
+      "department": "Registry",
+      "full_name": "Alice Admin",
+      "metadata": {},
+      "roles": [
+        "registrar"
+      ],
+      "username": "alice_admin"
+    },
+    {
+      "active": true,
+      "department": "Accounts",
+      "full_name": "Bob Finance",
+      "metadata": {},
+      "roles": [
+        "finance_officer"
+      ],
+      "username": "bob_finance"
+    }
+  ]
+}

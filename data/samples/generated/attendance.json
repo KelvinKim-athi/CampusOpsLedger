@@ -1,0 +1,70 @@
+{
+  "marks": [
+    {
+      "mark_id": "ict101_w1_s001",
+      "marked_at": "2026-02-01T05:00:00+00:00",
+      "metadata": {},
+      "minutes_late": 0,
+      "reason": "",
+      "session_id": "ict101_w1",
+      "source": "scanner",
+      "status": "present",
+      "student_id": "S001"
+    },
+    {
+      "mark_id": "ict101_w1_s002_absent",
+      "marked_at": "2026-06-11T10:01:49+00:00",
+      "metadata": {},
+      "minutes_late": 0,
+      "reason": "",
+      "session_id": "ict101_w1",
+      "source": "roll_call",
+      "status": "absent",
+      "student_id": "S002"
+    },
+    {
+      "mark_id": "ict101_w2_s001",
+      "marked_at": "2026-02-08T05:18:00+00:00",
+      "metadata": {},
+      "minutes_late": 18,
+      "reason": "",
+      "session_id": "ict101_w2",
+      "source": "scanner",
+      "status": "late",
+      "student_id": "S001"
+    },
+    {
+      "mark_id": "ict101_w2_s002_absent",
+      "marked_at": "2026-06-11T10:01:49+00:00",
+      "metadata": {},
+      "minutes_late": 0,
+      "reason": "",
+      "session_id": "ict101_w2",
+      "source": "roll_call",
+      "status": "absent",
+      "student_id": "S002"
+    }
+  ],
+  "sessions": [
+    {
+      "cohort": "BIT-2026",
+      "course_code": "ICT101",
+      "ends_at": "2026-02-01T07:00:00+00:00",
+      "lecturer": "Dr Maina",
+      "metadata": {},
+      "room_code": "LAB2",
+      "session_id": "ict101_w1",
+      "starts_at": "2026-02-01T05:00:00+00:00"
+    },
+    {
+      "cohort": "BIT-2026",
+      "course_code": "ICT101",
+      "ends_at": "2026-02-08T07:00:00+00:00",
+      "lecturer": "Dr Maina",
+      "metadata": {},
+      "room_code": "LAB2",
+      "session_id": "ict101_w2",
+      "starts_at": "2026-02-08T05:00:00+00:00"
+    }
+  ]
+}

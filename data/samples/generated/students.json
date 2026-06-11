@@ -1,0 +1,33 @@
+[
+  {
+    "cohort": "BIT-2026",
+    "full_name": "Ann Wanjiku",
+    "programme": "Information Technology",
+    "status": "active",
+    "student_id": "S001",
+    "tags": [
+      "boarder"
+    ],
+    "year": 2
+  },
+  {
+    "cohort": "BIT-2026",
+    "full_name": "Brian Otieno",
+    "programme": "Information Technology",
+    "status": "active",
+    "student_id": "S002",
+    "tags": [
+      "sports"
+    ],
+    "year": 2
+  },
+  {
+    "cohort": "BCS-2026",
+    "full_name": "Caleb Mwangi",
+    "programme": "Computer Science",
+    "status": "active",
+    "student_id": "S003",
+    "tags": [],
+    "year": 1
+  }
+]

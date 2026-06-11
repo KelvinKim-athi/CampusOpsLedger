@@ -1,0 +1,54 @@
+{
+  "bookings": [
+    {
+      "booking_id": "ict101_w1",
+      "course_code": "ICT101",
+      "ends_at": "2026-02-01T07:00:00+00:00",
+      "expected_size": 35,
+      "metadata": {},
+      "owner": "Dr Maina",
+      "room_code": "LAB_2",
+      "starts_at": "2026-02-01T05:00:00+00:00",
+      "title": "ICT 101 Practical"
+    }
+  ],
+  "rooms": [
+    {
+      "active": true,
+      "building": "Science Block",
+      "capacity": 40,
+      "equipment": [
+        "computers",
+        "projector"
+      ],
+      "kind": "lab",
+      "metadata": {},
+      "name": "Computer Lab Two",
+      "room_code": "LAB_2"
+    },
+    {
+      "active": true,
+      "building": "Main Block",
+      "capacity": 120,
+      "equipment": [
+        "projector"
+      ],
+      "kind": "lecture",
+      "metadata": {},
+      "name": "Lecture Hall One",
+      "room_code": "LH_1"
+    },
+    {
+      "active": true,
+      "building": "Library",
+      "capacity": 25,
+      "equipment": [
+        "whiteboard"
+      ],
+      "kind": "lecture",
+      "metadata": {},
+      "name": "Seminar Room",
+      "room_code": "SR_1"
+    }
+  ]
+}

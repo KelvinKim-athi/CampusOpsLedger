@@ -1,0 +1,62 @@
+[
+  {
+    "account_code": "cash",
+    "amount": "5000.00",
+    "description": "Payment",
+    "kind": "payment",
+    "line_id": "s001_2026_t1_cash_payment_2",
+    "metadata": {},
+    "posted_at": "2026-06-11T10:01:49+00:00",
+    "reference": "",
+    "student_id": "S001",
+    "term": "2026-T1"
+  },
+  {
+    "account_code": "tuition",
+    "amount": "12000.00",
+    "description": "Tuition",
+    "kind": "charge",
+    "line_id": "s001_2026_t1_tuition_1",
+    "metadata": {},
+    "posted_at": "2026-06-11T10:01:49+00:00",
+    "reference": "",
+    "student_id": "S001",
+    "term": "2026-T1"
+  },
+  {
+    "account_code": "tuition",
+    "amount": "12000.00",
+    "description": "Tuition",
+    "kind": "charge",
+    "line_id": "s002_2026_t1_tuition_1",
+    "metadata": {},
+    "posted_at": "2026-06-11T10:01:49+00:00",
+    "reference": "",
+    "student_id": "S002",
+    "term": "2026-T1"
+  },
+  {
+    "account_code": "waiver",
+    "amount": "2000.00",
+    "description": "Sports bursary",
+    "kind": "waiver",
+    "line_id": "s002_2026_t1_waiver_waiver_2",
+    "metadata": {},
+    "posted_at": "2026-06-11T10:01:49+00:00",
+    "reference": "",
+    "student_id": "S002",
+    "term": "2026-T1"
+  },
+  {
+    "account_code": "tuition",
+    "amount": "10000.00",
+    "description": "Tuition",
+    "kind": "charge",
+    "line_id": "s003_2026_t1_tuition_1",
+    "metadata": {},
+    "posted_at": "2026-06-11T10:01:49+00:00",
+    "reference": "",
+    "student_id": "S003",
+    "term": "2026-T1"
+  }
+]

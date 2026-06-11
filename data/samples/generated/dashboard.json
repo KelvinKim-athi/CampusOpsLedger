@@ -1,0 +1,41 @@
+{
+  "rows": [
+    {
+      "attendance_fraction": 0.75,
+      "attendance_risk": "ok",
+      "attendance_sessions": 2,
+      "cohort": "BIT-2026",
+      "fee_balance": "7000.00",
+      "fee_status": "owing",
+      "full_name": "Ann Wanjiku",
+      "programme": "Information Technology",
+      "status": "active",
+      "student_id": "S001"
+    },
+    {
+      "attendance_fraction": 0.0,
+      "attendance_risk": "high",
+      "attendance_sessions": 2,
+      "cohort": "BIT-2026",
+      "fee_balance": "10000.00",
+      "fee_status": "owing",
+      "full_name": "Brian Otieno",
+      "programme": "Information Technology",
+      "status": "active",
+      "student_id": "S002"
+    },
+    {
+      "attendance_fraction": 0.0,
+      "attendance_risk": "no_records",
+      "attendance_sessions": 0,
+      "cohort": "BCS-2026",
+      "fee_balance": "10000.00",
+      "fee_status": "owing",
+      "full_name": "Caleb Mwangi",
+      "programme": "Computer Science",
+      "status": "active",
+      "student_id": "S003"
+    }
+  ],
+  "student_count": 3
+}
