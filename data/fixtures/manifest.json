@@ -1,0 +1,22 @@
+{
+  "fixtures": [
+    {
+      "compressed_bytes": 6769855,
+      "domain": "import_events",
+      "path": "data/fixtures/campusops_import_events_v1.jsonl.gz",
+      "records": 24000,
+      "sha256": "f267a3bd01b7e78f394556ed68106fd8759d472bf64256bb9f2dd1809165dcf5"
+    },
+    {
+      "compressed_bytes": 6771925,
+      "domain": "decision_audit",
+      "path": "data/fixtures/campusops_decision_audit_v1.jsonl.gz",
+      "records": 24000,
+      "sha256": "350b91b470164353d8f2902746cb23c00ef78cfbed3d248da4fd6fff8eaac745"
+    }
+  ],
+  "format": "gzip-compressed JSON Lines",
+  "generated_by": "scripts/add_fixture_dataset_pack",
+  "name": "CampusOpsLedger synthetic fixture pack",
+  "purpose": "Large deterministic fixtures for import, audit, decision-routing, and dataset integrity checks."
+}
