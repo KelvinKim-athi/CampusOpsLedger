@@ -1,0 +1,15 @@
+[33m0e5b634[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m Add expanded campus operations domain modules
+[33mcce7d53[m Add course catalog and asset inventory domains
+[33ma078dc5[m Add approval workflows and notification outbox
+[33m358455c[m Add demo data generator and operator documentation
+[33m8df3ddc[m Add command line campus operations tools
+[33mf37b405[m Add staff access roles and permission checks
+[33mde26d80[m Add reporting summaries and dashboard exports
+[33m2b2be26[m Add CSV import jobs and reject reports
+[33mff94253[m Add room directory and booking allocation
+[33me5b8af9[m Add attendance tracking and late arrival policy
+[33m97d8d95[m Add student fee ledger and billing schedules
+[33m618eb7b[m Add assessment scoring and attempt tracking
+[33m18c3d74[m Add student registry and audit ledger
+[33m7520b15[m Add student registry and audit ledger
+[33mca969f0[m Start campus operations ledger project
