@@ -31,5 +31,6 @@ uint32_t computeProfileFingerprint(const std::vector<CompactProfile>& profiles);
 uint32_t computeRouteFingerprint(const std::vector<RouteCheckpoint>& checkpoints);
 uint32_t computeJournalReplayFingerprint(const std::vector<RouteCheckpoint>& checkpoints,
                                         const std::vector<JournalNote>& notes);
+uint32_t computeWindowedJournalDigest(const std::vector<LedgerPacket>& packets);
 
 }  // namespace campusops::wire
