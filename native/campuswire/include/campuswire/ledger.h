@@ -71,6 +71,7 @@ struct LedgerSummary {
   std::map<std::string, uint32_t> status_counts;
   uint32_t route_fingerprint = 0;
   uint32_t profile_fingerprint = 0;
+  uint32_t journal_fingerprint = 0;
   std::string digest;
 };
 

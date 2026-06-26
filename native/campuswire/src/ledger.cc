@@ -75,7 +75,9 @@ CompactProfile decodeCompactProfile(ByteReader& record) {
   for (uint8_t i = 0; i < slot_count; ++i) {
     uint16_t slot = record.readU16LE();
     uint32_t folded = foldSlot(seed, slot, i, out.student_id);
-    rolling_slot_digest[i] = folded;
+    if (i < rolling_slot_digest.size()) {
+      rolling_slot_digest[i] = folded;
+    }
     if ((slot % 7) != 0) {
       out.retention_slots.push_back(slot);
     }
@@ -194,10 +196,12 @@ LedgerSummary summarizeLedgerPacket(const LedgerPacket& packet) {
 
   summary.route_fingerprint = computeRouteFingerprint(packet.checkpoints);
   summary.profile_fingerprint = computeProfileFingerprint(packet.compact_profiles);
+  summary.journal_fingerprint = computeJournalReplayFingerprint(packet.checkpoints, packet.notes);
 
   uint32_t digest = mix32(packet.batch_id ^ summary.accepted_records ^ (summary.rejected_records << 11));
   digest = mix32(digest ^ summary.route_fingerprint);
   digest = mix32(digest ^ summary.profile_fingerprint);
+  digest = mix32(digest ^ summary.journal_fingerprint);
   for (const auto& [unit, count] : summary.unit_counts) {
     digest = fnv1a32(unit, digest);
     digest = mix32(digest ^ count);
@@ -214,6 +218,7 @@ std::string packetToJsonLine(const LedgerPacket& packet, const LedgerSummary& su
       << ",\"rejected\":" << summary.rejected_records
       << ",\"route_fingerprint\":" << summary.route_fingerprint
       << ",\"profile_fingerprint\":" << summary.profile_fingerprint
+      << ",\"journal_fingerprint\":" << summary.journal_fingerprint
       << ",\"digest\":\"" << summary.digest << "\"}";
   return out.str();
 }
