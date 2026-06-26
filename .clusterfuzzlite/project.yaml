@@ -1,0 +1,9 @@
+language: c++
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
+  - undefined
+fuzz_targets:
+  - campus_packet_fuzzer
+  - campus_journal_fuzzer
